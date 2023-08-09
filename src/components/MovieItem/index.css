@@ -1,0 +1,44 @@
+.movie-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+.movie-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+  
+
+.movie-details {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+  
+@media (min-width: 768px) {
+    .movie-item {
+      flex-direction: row;
+      align-items: flex-start;
+      text-align: left;
+}
+  
+.movie-item img {
+      margin-right: 15px;
+      max-width: 150px;
+      height: auto;
+}
+  
+
+.movie-details {
+      align-items: flex-start;
+    }
+}
+  
